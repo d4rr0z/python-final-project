@@ -163,7 +163,7 @@ def main():
             matrix, vector, total = read_file(argv[1])
         else:
             print()
-            filename = input('Podaj nazwe pliku: ')
+            filename = input('Podaj sciezke pliku: ')
             matrix, vector, total = read_file(filename)
         if total:
             result = final_demand(matrix, vector)
